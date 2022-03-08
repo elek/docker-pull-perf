@@ -1,1 +1,1 @@
-time docker pull elek/1g
+time docker pull ghcr.io/elek/1g
