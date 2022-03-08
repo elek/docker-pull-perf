@@ -10,4 +10,4 @@ jobs:
       - name: build
         run: ./build.sh
         env:
-           GITHUB_TOKEN: ${{ github.token }}
+           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
