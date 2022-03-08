@@ -1,0 +1,12 @@
+FROM alpine
+ADD 100mb /1
+ADD 100mb /2
+ADD 100mb /3
+ADD 100mb /4
+ADD 100mb /5
+ADD 100mb /6
+ADD 100mb /7
+ADD 100mb /8
+ADD 100mb /9
+ADD 100mb /10
+
