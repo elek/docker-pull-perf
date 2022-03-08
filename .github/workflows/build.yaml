@@ -1,7 +1,6 @@
 name: build
 on:
-  push:
-env:
+  push: []
 jobs:
   build-info:
     runs-on: ubuntu-18.04
