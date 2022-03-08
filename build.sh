@@ -2,7 +2,7 @@ docker run --name registry -d -p 5000:5000 -e UPLINK_ACCESS=$UPLINK_ACCESS -e UP
 sleep 10
 time docker pull localhost:5000/elek/1g
 
-dd if=/dev/random of=100mb count=102400 bs=1024
+dd if=/dev/urandom of=100mb count=102400 bs=1024
 IMAGE=localhost:5000/elek/1g:`date +%s`
 docker build -t $IMAGE .
 docker push $IMAGE
